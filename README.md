@@ -8,7 +8,7 @@
 
 Подготовить `git add .`
 
-Сохранить `git commit -m "message"`
+Сохранить в новом коммите `git commit -m "message"`
 
 Перейти к определенной версии коммита `git checkout <commit hash>`
 
@@ -19,3 +19,16 @@
 Просмотр объектов в папке .git
 `git cat-file -t 224d050`
 `git cat-file -p 224d050`
+
+Переход в основную ветку `git checkout master`
+
+Создание новой ветки `git branch <branch name>`
+
+Переименовывание существующей ветки `git branch -m <new branch name>`
+
+Создание новой ветки и переход в нее `git checkout -b <branch name>`
+
+Удаление ветки (текущую ветку удалить нельзя) `git checkout -d <branch name>`
+
+Список всех веток `git branch`
+
